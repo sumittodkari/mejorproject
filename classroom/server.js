@@ -33,7 +33,7 @@ app.get("/hello" ,(req,res) =>{
     res.render("page.ejs",{name:req.session.name,message:req.flash("success") } );
     
 });
-
+   
  
 
 
