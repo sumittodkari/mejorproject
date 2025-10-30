@@ -26,7 +26,7 @@ const sessionOption = {
     secret:"mysupersecretcode",
     resave:false,
     saveUninitialized:true,
-    cookie:{
+     cookie:{
         expire:Date.now()+1000*60*60*24*3,
         maxAvg:1000*60*60*24*3,
         httpOnly:true
